@@ -1,95 +1,104 @@
 <html>
-	<head>
-		<title>Blog Podrozniczy</title>
-		<style type="text/css">
-			h1 {
-				font-family: Georgia, serif;
-				color: #0000ff;
-			}
-			p {
-				font-family: Georgia, serif;
-				font-size: 20px;
-				color : #6fa8dc;
-			}
-			#header {
-				background-color: #c9daf8;
-				padding: 50px;
-			    background-image: url ("images/background.jpg");
-			}
-			#tytul {
-				text-align: center; 
-				font-size: 50px;
-			}
-			.dropbtn {
-			  background-color: #4CAF50;
-			  color: white;
-			  padding: 16px;
-			  font-size: 16px;
-			  border: none;
-			  cursor: pointer;
-			}
 
-			.dropdown {
-			  position: relative;
-			  display: inline-block;
-			}
+<head>
+    <title>Blog Podrozniczy</title>
+    <style type="text/css">
+        h1 {
+            font-family: Georgia, serif;
+            color: #0000ff;
+        }
+        
+        p {
+            font-family: Georgia, serif;
+            font-size: 20px;
+            color: #6fa8dc;
+        }
+        
+        #header {
+            background-color: #c9daf8;
+            padding: 50px;
+            background-image: url ("images/background.jpg");
+        }
+        
+        #tytul {
+            text-align: center;
+            font-size: 50px;
+        }
+        
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #f1f1f1
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
 
-			.dropdown-content {
-			  display: none;
-			  position: absolute;
-			  background-color: #f9f9f9;
-			  min-width: 160px;
-			  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-			  z-index: 1;
-			}
+<body>
+    <div id="header">
+        <h1 id="tytul">Blog Podrozniczy</h1>
+    </div>
 
-			.dropdown-content a {
-			  color: black;
-			  padding: 12px 16px;
-			  text-decoration: none;
-			  display: block;
-			}
+    <div class="dropdown">
+        <button class="dropbtn">Sardynia</button>
+        <div class="dropdown-content">
+            <a href="#">Olbia</a>
+            <a href="#">Alghero</a>
+            <a href="#">Cagliari</a>
+        </div>
+    </div>
 
-			.dropdown-content a:hover {background-color: #f1f1f1}
+    <div class="dropdown">
+        <button class="dropbtn">Sicili</button>
+        <div class="dropdown-content">
+            <a href="#">Palermo</a>
+            <a href="#">Taormina</a>
+            <a href="#">Catania</a>
+            <a href="#">Etna</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Lampedusa</button>
+        <div class="dropdown-content">
+            <a href="#">Cala Creta</a>
+            <a href="#">Cala Francese</a>
+        </div>
+    </div>
+</body>
 
-			.dropdown:hover .dropdown-content {
-			  display: block;
-			}
-
-			.dropdown:hover .dropbtn {
-			  background-color: #3e8e41;
-			}
-		</style>
-	</head>
-	
-	<body>
-		<div id="header">
-			<h1 id="tytul">Blog Podrozniczy</h1>
-		</div>
-		
-		<div class="dropdown">
-			<button class="dropbtn">Sardynia</button>
-			<div class="dropdown-content">
-				<a href="#">Olbia</a>
-				<a href="#">Alghero</a>
-				<a href="#">Cagliari</a>
-			</div>
-		</div>
-		
-		<div class="dropdown">
-			<button class="dropbtn">Sicili</button>
-			<div class="dropdown-content">
-				<a href="#">Palermo</a>
-				<a href="#">Taormina</a>
-				<a href="#">Catania</a>
-			</div>
-		</div>
-		<div class="dropdown">
-			<button class="dropbtn">Lampedusa</button>
-			<div class="dropdown-content">
-				<a href="#">Cala Creta</a>
-				<a href="#">Cala Francese</a>
-			</div>
-		</div>
-	</body>
 </html>
