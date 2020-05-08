@@ -1,7 +1,7 @@
 let changeMe = true;
-console.log(changeMe);
+console.log("Display variable changeMe: " + changeMe);
 changeMe = false;
-console.log(changeMe);
+console.log("Display variable changeMe: " + changeMe);
 const entree = 'Enchiladas';
 console.log(entree);
 var myName = "Gosia";
