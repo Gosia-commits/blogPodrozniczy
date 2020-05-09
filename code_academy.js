@@ -74,7 +74,115 @@ const plantNeedsWater = (day) => {
 };
 
 
-// function(day) {}
-//(day) => {}
+// function pokazMiesiac(day) {}
+// var pokazMiesiac = (day) => {}
+
 const plantNeedsWater = day =>
     day === 'Wednesday' ? true : false;
+
+
+const city = "New York City"
+
+function logCitySkyline() {
+    let skyscraper = "Empire State Building";
+    console.log(skyscraper);
+
+}
+
+const city = "New York City";
+() => {
+    let skyscraper = "Empire State Building";
+}
+
+const city = "New York City"
+var logCitySkyline = () => {
+    let skyscraper = "Empire State Building";
+    return "The stars over the " + skyscraper + " in " + city;
+};
+
+const city = "New York City"
+
+function logCitySkyline() {
+    let skyscraper = "Empire State Building";
+    return "The stars over the " + skyscraper + " in " + city;
+};
+console.log(logCitySkyline());
+
+var satellite = "The Moon";
+var galaxy = "The Milky Way";
+var stars = "North Star";
+var callMyNightSky = () => {
+    return "Night Sky: " + satellite + ", " + stars + ", and " + galaxy;
+};
+console.log(callMyNightSky());
+
+
+const logVisibleLightWaves = () => {
+    let lightWaves = 'Moonlight';
+    let region = 'The Arctic';
+    // Add if statement here:
+    if (region === "The Arctic") {
+        let lightWaves = "Northern Lights";
+        console.log(lightWaves);
+    }
+};
+
+logVisibleLightWaves();
+
+const famousSayings = ['Fortune favors the brave.', 'A joke is a very serious thing.', 'Where there is love there is life.'];
+let listItem = famousSayings[2];
+console.log(famousSayings[2]);
+
+let groceryList = ['bread', 'tomatoes', 'milk'];
+groceryList[1] = "avocados";
+console.log(groceryList);
+
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+condiments[0] = "Mayo";
+condiments = ['Mayo'];
+console.log(condiments);
+
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+utensils[3] = "Spoon"
+console.log(utensils);
+
+const objectives = ['Learn a new languages', 'Read 52 books', 'Run a marathon'];
+console.log(objectives.length);
+
+const chores = ['wash dishes', 'do laundry', 'take out trash'];
+chores.push("read book", 'buy newspaper');
+console.log(chores);
+
+//usuwa ostatni element z listy
+const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
+chores.pop();
+console.log(chores);
+
+//remove first item
+const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+groceryList.shift();
+console.log(groceryList);
+
+const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+groceryList.shift();
+groceryList.unshift('popcorn');
+//groceryList.slice(1,4);
+const pastaIndex = groceryList.indexOf("pasta");
+console.log(pastaIndex);
+console.log(groceryList.slice(1, 4));
+console.log(groceryList);
+
+//nested array 
+var numberClusters = [
+    [1, 2],
+    [3, 4],
+    [5, 6]
+];
+const target = numberClusters[2][1];
+console.log(target); //output 6
+
+
+//loop
+for (let newCounter = 5; newCounter < 11; newCounter++) {
+    console.log(newCounter);
+}
