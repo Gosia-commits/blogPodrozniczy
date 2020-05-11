@@ -127,6 +127,17 @@ const logVisibleLightWaves = () => {
     }
 };
 
+//loop
+// The loop below loops from 0 to 3. Edit it to loop backwards from 3 to 0
+for (let counter = 0; counter < 4; counter++) {
+    console.log(counter);
+}
+
+for (let backwords = 3; backwords >= 0; backwords--) {
+    console.log(backwords);
+}
+
+
 logVisibleLightWaves();
 
 const famousSayings = ['Fortune favors the brave.', 'A joke is a very serious thing.', 'Where there is love there is life.'];
@@ -186,3 +197,19 @@ console.log(target); //output 6
 for (let newCounter = 5; newCounter < 11; newCounter++) {
     console.log(newCounter);
 }
+
+//loop in array 
+const vacationSpots = ['Bali', 'Paris', 'Tulum'];
+
+// Write your code below
+for (let i = 0; i < vacationSpots.length; i++) {
+    console.log("I would love to visit " + vacationSpots[i]);
+}
+
+// do ...while
+let cupsOfSugarNeeded = 3;
+let cupsAdded = 0;
+
+do {
+    cupsAdded++
+} while (cupsAdded < cupsOfSugarNeeded);
